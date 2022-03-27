@@ -7,8 +7,7 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
-          title: const Center(child: Text('Dice')
-          ),
+          title: const Center(child: Text('Dice')),
           backgroundColor: Colors.red,
         ),
         body: const DicePage(),
@@ -49,20 +48,21 @@ class _DicePageState extends State<DicePage> {
             const SizedBox(width: 10),
             Expanded(
                 child: TextButton(
-                  onPressed: () {
-                    setState(() {
-                      change();
-                      print('right button is $rightDiceImg');
-                    });
-                  },
-                  child: Image.asset(('images/dice$rightDiceImg.png')),
-                ))
+              onPressed: () {
+                setState(() {
+                  change();
+                  print('right button is $rightDiceImg');
+                });
+              },
+              child: Image.asset(('images/dice$rightDiceImg.png')),
+            ))
           ],
         ),
       ),
     );
   }
-  void change(){
+
+  void change() {
     leftDiceImg = Random().nextInt(6) + 1;
     rightDiceImg = Random().nextInt(6) + 1;
   }
