@@ -3,9 +3,12 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/Dice/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Dice/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/Dice/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Dice1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Dice1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Dice1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/XylophoneApp/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/XylophoneApp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/XylophoneApp/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
