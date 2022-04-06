@@ -12,6 +12,9 @@
       <excludeFolder url="file://$MODULE_DIR$/quizzerapp/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/quizzerapp/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/quizzerapp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/BMI_Calculator/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/BMI_Calculator/build" />
+      <excludeFolder url="file://$MODULE_DIR$/BMI_Calculator/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
